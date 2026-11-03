@@ -33,7 +33,7 @@ answers them together:
                               the frame width for 1 s.
 
 What comes out of here is copied into `_brands.EXTRA` and `_brands.HERO`. The
-full walkthrough is in CLAUDE.md, "How a brand gets added".
+full walkthrough is in AGENTS.md, "How a brand gets added".
 """
 import sys, pathlib, json
 
@@ -128,7 +128,7 @@ def main():
               "take over\n  a sign that currently carries an invented name — "
               "list them with\n  93_check_signs and pin it with PIN.")
     print("\n  The coordinate goes into _brands.EXTRA as `at`, and the wall "
-          "into that\n  brand's HERO entry as `facade_side`. See CLAUDE.md, "
+          "into that\n  brand's HERO entry as `facade_side`. See AGENTS.md, "
           "\"How a brand gets added\".\n")
 
 

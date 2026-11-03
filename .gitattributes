@@ -17,4 +17,4 @@
 # repo reads as what it is rather than as a JavaScript project.
 web/package-lock.json  linguist-generated=true
 .agents/skills/**      linguist-vendored=true
-.claude/skills/**      linguist-vendored=true
+.cursor/skills/**      linguist-vendored=true

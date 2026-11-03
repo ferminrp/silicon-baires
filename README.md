@@ -89,15 +89,15 @@ python3 scripts/city/97_check_title.py renders/city_08_title_only.png
 | [`docs/city/STYLE-BIBLE.md`](docs/city/STYLE-BIBLE.md) | read before changing the look |
 | [`docs/city/PLAN.md`](docs/city/PLAN.md) | how the build is organised, and which decisions are settled |
 | [`web/README.md`](web/README.md) | the browser build, the grade, and the video |
-| [`CLAUDE.md`](CLAUDE.md) | the working notes: every failure mode, and why each rule exists |
+| [`AGENTS.md`](AGENTS.md) | the working notes: every failure mode, and why each rule exists |
 
-`CLAUDE.md` is the long one and the honest one. It records the attempts that
+`AGENTS.md` is the long one and the honest one. It records the attempts that
 were wrong as well as the ones that stuck.
 
 ## Requirements
 
 - **Blender 5.2 LTS** (Python 3.13). The `blender` skill under
-  `.claude/skills/` documents the 5.x API changes that break code written from
+  `.cursor/skills/` documents the 5.x API changes that break code written from
   memory, all verified against the installed binary.
 - **Node 18+** for `web/`, and **ffmpeg** on `PATH` for `npm run record`.
 - **A heavy grotesque** for the title and the signs. The city was built with PP

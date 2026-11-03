@@ -657,7 +657,7 @@ def require(collections=(), files=(), hint=""):
     missing += [f"file {p.name}" for p in files if not p.exists()]
     if missing:
         raise SystemExit(f"\n  missing: {', '.join(missing)}\n"
-                         f"  {hint or 'see CLAUDE.md for the build order'}\n")
+                         f"  {hint or 'see AGENTS.md for the build order'}\n")
 
 
 def apply_grade(scene=None):

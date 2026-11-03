@@ -45,7 +45,7 @@ GROWN = ("NATURE",)
 
 def main():
     open_city(needs_collections=('SITE', 'NATURE'),
-              hint="run the chain in CLAUDE.md first")
+              hint="run the chain in AGENTS.md first")
     # frame 1, for the same reason 99_check_overlap says so out loud: this file
     # is left on whatever frame ran last, and half the scene is animated
     bpy.context.scene.frame_set(1)

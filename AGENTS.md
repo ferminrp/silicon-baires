@@ -624,10 +624,10 @@ renders/                  outputs. Gitignored EXCEPT the deliverable and the fou
                           city_signs.json, city_buildings.json
 web/                      the city in the browser (three.js + Vite). See its README
 web/public/               written by 20_export_web.py; gitignored, regenerate it
-.claude/skills/blender/   project skill: verified 5.2 API, look dev, recipes
-.agents/skills/           installed three.js skills (symlinked from .claude/skills)
+.cursor/skills/blender/   project skill: verified 5.2 API, look dev, recipes
+.agents/skills/           installed three.js skills (symlinked from .cursor/skills)
 skills-lock.json          which third-party skills are installed, and at which version
-README.md                 the public face of the repo. CLAUDE.md is the working one
+README.md                 the public face of the repo. AGENTS.md is the working one
 ```
 
 ## Available skills

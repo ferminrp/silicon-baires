@@ -143,7 +143,7 @@ def _():
 @check("skills present")
 def _():
     root = pathlib.Path(__file__).resolve().parents[1]
-    sk = root / ".claude" / "skills"
+    sk = root / ".cursor" / "skills"
     found = sorted(p.name for p in sk.iterdir() if (p / "SKILL.md").exists())
     assert "blender" in found, "the blender skill is missing"
     return ", ".join(found)

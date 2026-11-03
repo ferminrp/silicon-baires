@@ -356,7 +356,7 @@ this .blend had their faces wound inside out**. Cycles shades both sides and
 never mentioned it; the browser draws the far face and the roof signs tore
 against the decks they lie on. If anything looks wrong in the browser and right
 in a render, suspect this first — `bmesh.calc_volume(signed=True)` is positive
-when a closed mesh points outward, and CLAUDE.md has the whole story.
+when a closed mesh points outward, and AGENTS.md has the whole story.
 
 The look is measured, not eyeballed: `window.measure()` in the browser reports
 the same five numbers `_common.GRADE` was fitted with, against the same
