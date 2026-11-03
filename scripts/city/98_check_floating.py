@@ -60,7 +60,7 @@ def local_min_z(me):
 
 def main():
     open_city(needs_collections=('KIT',),
-              hint="run the chain in CLAUDE.md first")
+              hint="run the chain in AGENTS.md first")
     # Frame 1, always, and said out loud because it matters: this file may be
     # left on any frame by the step that ran last, and the vehicles are
     # animated. Reading "the current frame" makes the result depend on where

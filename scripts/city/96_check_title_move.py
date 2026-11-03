@@ -41,7 +41,7 @@ SHOTS = [("wide", 45, 38, 420), ("hero", 45, 38, 210),
 
 def main():
     open_city(needs_collections=('TITLE',),
-              hint="run the chain in CLAUDE.md first")
+              hint="run the chain in AGENTS.md first")
     scene = bpy.context.scene
     title = bpy.data.collections["TITLE"]
     # TitleRoot is an Empty and has no mesh: ob.data is None and this died on

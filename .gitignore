@@ -35,7 +35,7 @@ refs/
 *.blend1
 *.blend@
 
-# .agents/skills/ IS tracked: .claude/skills/threejs-* are symlinks into it, so
+# .agents/skills/ IS tracked: .cursor/skills/threejs-* are symlinks into it, so
 # a clone without those files would end up with broken skills.
 
 # Harness scratch, not project content.

@@ -405,7 +405,7 @@ def main():
     #
     # Without this, a second run builds an object called Heli.001 while every
     # instance in the city goes on pointing at Heli, so the edit appears to do
-    # nothing at all and raises no error. That is the trap CLAUDE.md warns about
+    # nothing at all and raises no error. That is the trap AGENTS.md warns about
     # and this is the cause of it, not a property of the universe.
     #
     # Purging fixes the naming and makes the warning WORSE in the honest
