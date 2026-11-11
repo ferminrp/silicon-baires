@@ -1,5 +1,9 @@
 # Silicon Baires
 
+## Skills de UI y motion
+
+Skills de UI y motion (emilkowalski/skills, en `.cursor/skills/`): usá emil-design-eng y animate/choreograph/gestures cuando construyas o cambies UI o animaciones; break-ui y review-animations antes de abrir un PR con cambios visuales.
+
 Generative 3D with Blender, driven by code, headless.
 
 ## Start here
